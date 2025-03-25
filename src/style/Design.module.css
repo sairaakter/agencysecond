@@ -1,0 +1,462 @@
+.squr_central {
+  border-right: 1px solid #262626;
+}
+
+/* .squraup_box .squr_central:nth-of-type(5) {
+  border-right: none;
+} */
+.squraup_box .squr_central:last-child {
+  border-right: none;
+}
+/* design start */
+.design {
+}
+
+.d_borderr {
+  border: 1px solid #262626;
+}
+.desi_hed {
+  margin: 120px 0 50px 50px;
+}
+.desi_hed h1 {
+  font-family: "Barlow", sans-serif;
+  font-size: 48px !important;
+  font-weight: 600 !important;
+  color: #fff;
+  margin: 0;
+}
+.dsm_pad {
+  padding: 0 12px;
+}
+.desi_hed p {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  color: #e6e6e6;
+  margin: 14px 0 50px;
+}
+.desi_hed button {
+}
+.decombtn {
+  font-family: "Barlow", sans-serif;
+  font-size: 22px !important;
+  font-weight: 400 !important;
+  color: #fff;
+  margin: 0;
+  height: 50px;
+  padding: 0 14px;
+  border: none;
+  border-radius: 8px;
+  background-color: #262626;
+  transition: 0.4s;
+}
+.decombtn:hover {
+  color: #262626;
+  background-color: #fff;
+}
+.dsub_hed {
+}
+.dsub_hed h2 {
+  font-family: "Barlow", sans-serif;
+  font-size: 28px !important;
+  font-weight: 500 !important;
+  color: #98989a;
+  line-height: 150%;
+  margin: 0;
+  padding: 50px;
+  border-top: 1px solid #262626;
+  border-bottom: 1px solid #262626;
+}
+.dsub_content {
+  padding: 50px;
+  /* border-right: 1px solid #262626; */
+}
+/* .row :last-child .dsub_content {
+  border-right: 0;
+} */
+.dsub_content img {
+  width: 88px;
+  height: 88px;
+}
+.dsub_content p {
+  font-family: "Barlow", sans-serif;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  color: #e6e6e6;
+  margin: 30px 0 0;
+}
+.des_hr {
+  display: none;
+}
+.image_container {
+  position: relative;
+  display: inline-block;
+}
+.image_container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  animation: border-animation 1s linear infinite;
+}
+
+@keyframes border-animation {
+  0% {
+    border-top: 1px solid #9eff00;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+  }
+  25% {
+    border-top: 1px solid #9eff00;
+    border-right: 1px solid #9eff00;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+  }
+  50% {
+    border-top: 1px solid transparent;
+    border-right: 1px solid #9eff00;
+    border-bottom: 1px solid #9eff00;
+    border-left: 1px solid transparent;
+  }
+  75% {
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid #9eff00;
+    border-left: 1px solid #9eff00;
+  }
+  100% {
+    border-top: 1px solid #9eff00;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* design start */
+  .desi_hed h1 {
+    font-size: 28px !important;
+  }
+
+  .desi_hed p {
+    font-size: 14px !important;
+    margin: 10px 0 30px;
+  }
+
+  .decombtn {
+    font-size: 16px !important;
+    height: 39px;
+    padding: 0 10px;
+  }
+
+  .desi_hed {
+    margin: 40px 0 40px 20px;
+  }
+
+  .dsub_hed h2 {
+    font-size: 20px !important;
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  .dsub_content img {
+    width: 56px;
+    height: 56px;
+  }
+
+  .dsub_content p {
+    font-size: 16px !important;
+    margin: 20px 0 0;
+  }
+
+  .dsub_content {
+    padding: 20px 20px;
+  }
+
+  .des_hr {
+    display: block;
+    color: #262626 !important;
+    opacity: 1;
+    margin: 0 !important;
+  }
+  .dsm_pad {
+    padding: 0 12px;
+  }
+
+  .dsm_pad .col-lg-12 {
+    padding: 0 !important;
+  }
+  .row .col-6:nth-of-type(3) .dsub_content {
+    border-right: none;
+  }
+  .squraup_box .squr_central:nth-of-type(3) {
+    border-right: none;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* design start */
+  .desi_hed h1 {
+    font-size: 33px !important;
+  }
+
+  .desi_hed p {
+    font-size: 16px !important;
+    margin: 10px 0 30px;
+  }
+
+  .decombtn {
+    font-size: 16px !important;
+    height: 42px;
+    padding: 0 10px;
+  }
+
+  .desi_hed {
+    margin: 50px 0 30px 30px;
+  }
+  .dsub_hed h2 {
+    font-size: 20px !important;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .dsub_content img {
+    width: 56px;
+    height: 56px;
+  }
+
+  .dsub_content p {
+    font-size: 16px !important;
+    margin: 20px 0 0;
+  }
+
+  .dsub_content {
+    padding: 20px 30px;
+  }
+
+  .des_hr {
+    display: block;
+    color: #262626 !important;
+    opacity: 1;
+    margin: 0 !important;
+  }
+  .dsm_pad {
+    padding: 0 12px;
+  }
+
+  .dsm_pad .col-lg-12 {
+    padding: 0 !important;
+  }
+  .squraup_box .squr_central:nth-of-type(3) {
+    border-right: none;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* design start */
+  .desi_hed h1 {
+    font-size: 33px !important;
+  }
+
+  .desi_hed p {
+    font-size: 16px !important;
+    margin: 10px 0 30px;
+  }
+
+  .decombtn {
+    font-size: 16px !important;
+    height: 42px;
+    padding: 0 10px;
+  }
+
+  .desi_hed {
+    margin: 50px 0 30px 30px;
+  }
+  .dsub_hed h2 {
+    font-size: 20px !important;
+    padding: 30px;
+  }
+
+  .dsub_content img {
+    width: 56px;
+    height: 56px;
+  }
+
+  .dsub_content p {
+    font-size: 16px !important;
+    margin: 20px 0 0;
+  }
+
+  .dsub_content {
+    padding: 20px 30px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* design start */
+  .desi_hed h1 {
+    font-size: 38px !important;
+  }
+
+  .desi_hed p {
+    font-size: 16px !important;
+    margin: 10px 0 30px;
+  }
+
+  .decombtn {
+    font-size: 16px !important;
+    height: 42px;
+    padding: 0 10px;
+  }
+
+  .desi_hed {
+    margin: 65px 0 30px 30px;
+  }
+  .dsub_hed h2 {
+    font-size: 20px !important;
+    padding: 30px;
+  }
+
+  .dsub_content img {
+    width: 58px;
+    height: 58px;
+  }
+
+  .dsub_content p {
+    font-size: 16px !important;
+    margin: 20px 0 0;
+  }
+
+  .dsub_content {
+    padding: 30px;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* design start */
+  .desi_hed h1 {
+    font-size: 38px !important;
+  }
+
+  .desi_hed p {
+    font-size: 16px !important;
+    margin: 10px 0 40px;
+  }
+
+  .decombtn {
+    font-size: 18px !important;
+    height: 42px;
+    padding: 0 10px;
+  }
+
+  .desi_hed {
+    margin: 80px 0 40px 40px;
+  }
+  .dsub_hed h2 {
+    font-size: 22px !important;
+    padding: 40px;
+  }
+
+  .dsub_content img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .dsub_content p {
+    font-size: 16px !important;
+    margin: 24px 0 0;
+  }
+
+  .dsub_content {
+    padding: 40px;
+  }
+}
+
+/* //agulo custom container er jonno */
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width: 1550px) {
+  /* design start */
+  .desi_hed h1 {
+    font-size: 38px !important;
+  }
+
+  .desi_hed p {
+    font-size: 16px !important;
+    margin: 10px 0 40px;
+  }
+
+  .decombtn {
+    font-size: 18px !important;
+    height: 42px;
+    padding: 0 10px;
+  }
+
+  .desi_hed {
+    margin: 80px 0 40px 40px;
+  }
+  .dsub_hed h2 {
+    font-size: 22px !important;
+    padding: 40px;
+  }
+
+  .dsub_content img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .dsub_content p {
+    font-size: 16px !important;
+    margin: 24px 0 0;
+  }
+
+  .dsub_content {
+    padding: 40px;
+  }
+}
+@media (min-width: 1551px) and (max-width: 1700px) {
+  /* design start */
+  .desi_hed h1 {
+    font-size: 38px !important;
+  }
+
+  .desi_hed p {
+    font-size: 16px !important;
+    margin: 10px 0 40px;
+  }
+
+  .decombtn {
+    font-size: 18px !important;
+    height: 42px;
+    padding: 0 10px;
+  }
+
+  .desi_hed {
+    margin: 80px 0 40px 40px;
+  }
+  .dsub_hed h2 {
+    font-size: 22px !important;
+    padding: 40px;
+  }
+
+  .dsub_content img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .dsub_content p {
+    font-size: 16px !important;
+    margin: 24px 0 0;
+  }
+
+  .dsub_content {
+    padding: 40px;
+  }
+}

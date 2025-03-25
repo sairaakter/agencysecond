@@ -1,0 +1,382 @@
+.brono {
+  border: none !important;
+}
+.d_borderr {
+  border: 1px solid #262626;
+  border-top: none !important;
+}
+/* opareate start */
+.oparat_bord {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.nestay {
+  padding: 40px 0 40px 80px;
+  display: inline-block;
+  border-left: 1px solid #262626;
+}
+.conta_left {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-end;
+  gap: 14px;
+  padding-right: 80px;
+}
+.conta_left p {
+  font-family: "Barlow", sans-serif;
+  font-size: 22px;
+  font-weight: 500 !important;
+  color: #e6e6e6;
+  margin: 0;
+}
+.fry {
+  background-color: #262626;
+  border-radius: 6px;
+  padding: 12px 24px;
+  display: inline-block;
+}
+.fry p {
+  font-size: 20px !important;
+  display: inline-block;
+  padding: 0 !important;
+}
+.oprat_hr {
+  display: none;
+}
+
+/* Location start */
+.fbo_mail a {
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  font-weight: 500 !important;
+  color: #e6e6e6;
+  margin: 0;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.fbo_mail img {
+  width: 24px;
+  height: 24px;
+}
+.fbo_mail {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  align-content: center;
+  cursor: pointer;
+  align-items: center;
+  background-color: #262626;
+  padding: 18px 24px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.fbo_mail:hover a {
+  color: #000 !important;
+}
+.fbo_mail:hover {
+  background-color: #e6e6e6;
+}
+.main_fl {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* opareate start */
+  .conta_left p {
+    font-size: 16px;
+  }
+  .fry p {
+    font-size: 14px !important;
+  }
+
+  .fry {
+    padding: 10px 20px;
+  }
+
+  .nestay {
+    padding: 0px 0 40px 0px;
+    display: flex;
+    border-left: none;
+    justify-content: center;
+  }
+  .conta_left {
+    padding-right: 0px;
+    align-items: center !important;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .oprat_hr {
+    display: block;
+    color: #262626;
+    opacity: 1;
+    margin: 30px 0;
+  }
+  .oparat_bord {
+    padding: 0 12px;
+  }
+
+  /* ///////// */
+  .fbo_mail a {
+    font-size: 16px;
+  }
+  .fbo_mail {
+    width: 100%;
+    padding: 14px 20px;
+    justify-content: center;
+  }
+
+  .main_fl {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 0;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* opareate start */
+  .conta_left p {
+    font-size: 16px;
+  }
+  .fry p {
+    font-size: 16px !important;
+  }
+
+  .fry {
+    padding: 10px 20px;
+  }
+
+  .nestay {
+    padding: 0px 0 40px 0px;
+    display: flex;
+    border-left: none;
+    justify-content: center;
+  }
+  .conta_left {
+    padding-right: 0px;
+    align-items: center !important;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .oprat_hr {
+    display: block;
+    color: #262626;
+    opacity: 1;
+    margin: 30px 0;
+  }
+  .oparat_bord {
+    padding: 0 12px;
+  }
+
+  /* ///////// */
+  .fbo_mail a {
+    font-size: 16px;
+  }
+  .fbo_mail {
+    width: 100%;
+    padding: 14px 20px;
+    justify-content: center;
+  }
+
+  .main_fl {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 0;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* opareate start */
+  .conta_left p {
+    font-size: 16px;
+  }
+  .fry p {
+    font-size: 16px !important;
+  }
+
+  .fry {
+    padding: 10px 20px;
+  }
+
+  .nestay {
+    padding: 0px 0 40px 0px;
+    display: flex;
+    border-left: none;
+    justify-content: center;
+  }
+  .conta_left {
+    padding-right: 0px;
+    align-items: center !important;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .oprat_hr {
+    display: block;
+    color: #262626;
+    opacity: 1;
+    margin: 30px 0;
+  }
+  .oparat_bord {
+    padding: 0 12px;
+  }
+
+  /* ///////// */
+  .fbo_mail a {
+    font-size: 16px;
+  }
+  .fbo_mail {
+    padding: 14px 20px;
+  }
+
+  .main_fl {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* opareate start */
+  .conta_left p {
+    font-size: 16px;
+  }
+  .fry p {
+    font-size: 16px !important;
+  }
+
+  .fry {
+    padding: 10px 20px;
+  }
+
+  .nestay {
+    padding: 30px 0 30px 60px;
+  }
+  .conta_left {
+    padding-right: 60px;
+  }
+
+  /* ///////// */
+  .fbo_mail a {
+    font-size: 16px;
+  }
+  .fbo_mail {
+    padding: 14px 20px;
+  }
+
+  .main_fl {
+    gap: 20px;
+    padding: 40px 0;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* opareate start */
+  .conta_left p {
+    font-size: 16px;
+  }
+  .fry p {
+    font-size: 16px !important;
+  }
+
+  .fry {
+    padding: 10px 20px;
+  }
+
+  .nestay {
+    padding: 30px 0 30px 60px;
+  }
+  .conta_left {
+    padding-right: 60px;
+  }
+  /* ///////// */
+  .fbo_mail a {
+    font-size: 16px;
+  }
+  .fbo_mail {
+    padding: 14px 20px;
+  }
+
+  .main_fl {
+    gap: 20px;
+    padding: 40px 0;
+  }
+}
+
+/* //agulo custom container er jonno */
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width: 1550px) {
+  /* opareate start */
+  .conta_left p {
+    font-size: 16px;
+  }
+  .fry p {
+    font-size: 16px !important;
+  }
+
+  .fry {
+    padding: 10px 20px;
+  }
+
+  .nestay {
+    padding: 36px 0 36px 80px;
+  }
+  /* /// */
+  .fbo_mail a {
+    font-size: 16px;
+  }
+  .fbo_mail {
+    padding: 14px 20px;
+  }
+
+  .main_fl {
+    gap: 20px;
+    padding: 40px 0;
+  }
+}
+@media (min-width: 1551px) and (max-width: 1700px) {
+  /* opareate start */
+  .conta_left p {
+    font-size: 16px;
+  }
+  .fry p {
+    font-size: 16px !important;
+  }
+
+  .fry {
+    padding: 10px 20px;
+  }
+
+  .nestay {
+    padding: 36px 0 36px 80px;
+  }
+  .fbo_mail a {
+    font-size: 16px;
+  }
+  .fbo_mail {
+    padding: 14px 20px;
+  }
+
+  .main_fl {
+    gap: 20px;
+    padding: 40px 0;
+  }
+}

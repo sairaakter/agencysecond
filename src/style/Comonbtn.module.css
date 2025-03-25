@@ -1,0 +1,69 @@
+/* comonbtn */
+.comonbtn {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  height: 60px;
+  border: none;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+}
+
+/* //agulo custom container er jonno */
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width: 1550px) {
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+}
+@media (min-width: 1551px) and (max-width: 1700px) {
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+}

@@ -1,0 +1,423 @@
+/* banner start */
+.banner {
+}
+.banar_content {
+  background-image: url(../assets/banrrtwo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding: 115px 0 310px 0;
+  border: 1px solid #262626;
+  border-top: none !important;
+}
+
+.banar_content h1 {
+  font-family: "Barlow", sans-serif;
+  font-size: 68px !important;
+  font-weight: 600 !important;
+  color: #ffffff !important;
+  text-align: center;
+}
+
+.startup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+  margin: 60px 0 80px;
+}
+.start_first {
+  position: absolute;
+  width: 865px;
+  height: 98px;
+  border: 1px solid #262626;
+  border-radius: 12px;
+  backdrop-filter: blur(3px) !important;
+  background-color: rgba(36, 36, 36, 0.2);
+  display: flex;
+  align-content: center;
+  align-items: center;
+  z-index: 1; /* পেছনে রাখার জন্য */
+}
+.start_first p {
+  font-family: "Barlow", sans-serif;
+  font-size: 22px !important;
+  font-weight: 400 !important;
+  color: #98989a !important;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 0 40px;
+  width: 100%;
+  text-align: center;
+}
+
+.start_secon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 18px;
+  align-content: center;
+  z-index: 2; /* উপরে রাখার জন্য */
+  position: relative;
+}
+.start_secon button {
+  font-family: "Barlow", sans-serif;
+  font-size: 22px !important;
+  font-weight: 400 !important;
+  color: #fff !important;
+  border: none;
+  border-radius: 8px;
+  background-color: #262626 !important;
+  padding: 12px 14px;
+  transition: all 0.6s ease;
+}
+/* for hover */
+.start_secon button {
+  background-size: 300% 100%;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.start_secon button:hover {
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.start_secon button:focus {
+  outline: none;
+}
+.start_secon button.color_7:hover {
+  background-image: linear-gradient(to right, #9eff00, #252e16);
+  box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+}
+.start_secon button.color_7 {
+  background-image: linear-gradient(to right, #262626, #262626);
+}
+/* for hover */
+.comonbtn {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  height: 60px;
+  border: none;
+}
+.ban_comonbtn {
+  display: flex;
+  gap: 13px;
+}
+.ban_comonbtn button {
+  border: 1px solid #333333;
+  border-radius: 10px;
+  background-color: rgba(36, 36, 36, 0.2);
+  padding: 0 28px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.ban_comonbtn button:hover {
+  border: 1px solid rgba(158, 255, 0, 1);
+  color: #262626;
+}
+/* //btn 5 */
+.custom_btnfiv {
+  backdrop-filter: blur(3px) !important;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  border-radius: 10px;
+}
+.btn_5 {
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+.btn_5:after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease;
+  -webkit-transform: scale(0.1);
+  transform: scale(0.1);
+  transform: scale(0); /* Hide the background initially */
+  background: linear-gradient(0deg, #9eff00 0%, #9eff00 100%);
+}
+.btn_5:hover {
+  background-color: transparent;
+}
+.btn_5:hover:after {
+  background: linear-gradient(0deg, #9eff00 0%, #9eff00 100%);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* banner start */
+  .banar_content h1 {
+    font-size: 34px !important;
+    line-height: 150%;
+  }
+  .start_first {
+    width: 100%;
+    height: 84px;
+  }
+  .start_first p {
+    font-size: 16px !important;
+    padding: 0 11px;
+    text-align: center;
+  }
+  .start_secon {
+    display: none !important;
+    gap: 8px;
+  }
+  .start_secon button {
+    font-size: 14px !important;
+    padding: 8px 12px;
+  }
+  .ban_comonbtn button {
+    padding: 0 20px;
+  }
+
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+  .banar_content {
+    padding: 60px 0 90px 0;
+  }
+  .startup {
+    width: 100%;
+    margin: 60px 0 80px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* banner start */
+  .banar_content h1 {
+    font-size: 34px !important;
+  }
+  .start_first {
+    width: 515px;
+    height: 75px;
+  }
+  .start_first p {
+    font-size: 14px !important;
+    padding: 0 30px;
+  }
+  .start_secon {
+    gap: 8px;
+  }
+  .start_secon button {
+    font-size: 14px !important;
+    padding: 8px 12px;
+  }
+  .ban_comonbtn button {
+    padding: 0 20px;
+  }
+
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+  .banar_content {
+    padding: 60px 0 90px 0;
+  }
+  .startup {
+    margin: 30px 0 40px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* banner start */
+  .banar_content h1 {
+    font-size: 40px !important;
+  }
+  .start_first {
+    width: 600px;
+    height: 75px;
+  }
+  .start_first p {
+    font-size: 16px !important;
+    padding: 0 30px;
+  }
+  .start_secon button {
+    font-size: 16px !important;
+    padding: 8px 12px;
+  }
+  .ban_comonbtn button {
+    padding: 0 20px;
+  }
+
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+  .banar_content {
+    padding: 70px 0 100px 0;
+  }
+
+  .startup {
+    margin: 30px 0 40px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* banner start */
+  .banar_content h1 {
+    font-size: 48px !important;
+  }
+  .start_first {
+    width: 700px;
+    height: 75px;
+  }
+  .start_first p {
+    font-size: 18px !important;
+    padding: 0 30px;
+  }
+  .start_secon button {
+    font-size: 18px !important;
+    padding: 8px 12px;
+  }
+  .ban_comonbtn button {
+    padding: 0 20px;
+  }
+
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+  .banar_content {
+    padding: 80px 0 125px 0;
+  }
+  .startup {
+    margin: 38px 0 48px;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* banner start */
+  .banar_content h1 {
+    font-size: 48px !important;
+  }
+  .start_first {
+    width: 700px;
+    height: 75px;
+  }
+  .start_first p {
+    font-size: 18px !important;
+    padding: 0 30px;
+  }
+  .start_secon button {
+    font-size: 18px !important;
+    padding: 8px 12px;
+  }
+  .ban_comonbtn button {
+    padding: 0 20px;
+  }
+
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+  .banar_content {
+    padding: 87px 0 142px 0;
+  }
+  .startup {
+    margin: 50px 0 65px;
+  }
+}
+
+/* //agulo custom container er jonno */
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width: 1550px) {
+  /* banner start */
+  .banar_content h1 {
+    font-size: 48px !important;
+  }
+  .start_first {
+    width: 700px;
+    height: 75px;
+  }
+  .start_first p {
+    font-size: 18px !important;
+    padding: 0 30px;
+  }
+  .start_secon button {
+    font-size: 18px !important;
+    padding: 8px 12px;
+  }
+  .ban_comonbtn button {
+    padding: 0 20px;
+  }
+
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+  .banar_content {
+    padding: 100px 0 182px 0;
+  }
+  .startup {
+    margin: 50px 0 65px;
+  }
+}
+@media (min-width: 1551px) and (max-width: 1700px) {
+  /* banner start */
+  .banar_content h1 {
+    font-size: 48px !important;
+  }
+  .start_first {
+    width: 700px;
+    height: 75px;
+  }
+  .start_first p {
+    font-size: 18px !important;
+    padding: 0 30px;
+  }
+  .start_secon button {
+    font-size: 18px !important;
+    padding: 8px 12px;
+  }
+  .ban_comonbtn button {
+    padding: 0 20px;
+  }
+
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+  .banar_content {
+    padding: 100px 0 182px 0;
+  }
+  .startup {
+    margin: 50px 0 65px;
+  }
+}

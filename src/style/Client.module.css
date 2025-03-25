@@ -1,0 +1,467 @@
+/* about client start */
+
+.client {
+}
+
+.client_content {
+  padding: 100px 60px;
+}
+.client_content h1 {
+  font-family: "Barlow", sans-serif !important;
+  font-size: 28px;
+  color: #d8ff99;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -0.6%;
+  margin: 0;
+}
+.client_content p {
+  font-family: "Barlow", sans-serif !important;
+  font-size: 18px;
+  color: #e6e6e6;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 24px 0 40px;
+}
+
+.client_info {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  background-color: rgba(36, 36, 36, 0.2);
+  padding: 20px;
+  border: 1px solid #262626;
+  border-radius: 8px;
+}
+.clien_idd {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  gap: 18px;
+}
+.clien_idd img {
+  width: 60px;
+  height: 60px;
+}
+.clien_flexin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.clien_flexin p {
+  font-family: "Barlow", sans-serif !important;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 150%;
+  margin: 0px !important;
+}
+
+.c_cusp {
+  font-family: "Barlow", sans-serif !important;
+  font-size: 18px !important;
+  color: #e6e6e6 !important;
+  font-weight: 400 !important;
+  line-height: 150%;
+  margin: 0px !important;
+}
+
+.clien_btn button {
+  padding: 0 20px;
+  color: #fff;
+  background-color: rgb(38, 38, 38); /* Initial background color */
+  border-radius: 8px;
+  border: none !important;
+}
+
+/* comon_allbtns animation */
+
+.comon_allbtns button {
+  position: relative;
+  overflow: hidden; /* Hide overflow animation */
+  z-index: 1;
+}
+.comon_allbtns button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0); /* Hide the background initially */
+  background: linear-gradient(0deg, #9eff00 0%, #9eff00 100%);
+  transition: transform 0.5s ease, opacity 0.5s ease; /* Smooth transition for scale and opacity */
+  z-index: -1;
+  border-radius: 8px;
+}
+
+/* Hover Effect */
+.comon_allbtns button:hover::after {
+  transform: scale(1); /* Scale the background to full size */
+}
+
+.comon_allbtns button:hover {
+  color: #000; /* Text color change on hover */
+}
+/* comon_allbtns animation */
+
+/* comon using */
+.squraup_box {
+  padding: 0 12px;
+  border: 1px solid #262626;
+  border-top: none !important;
+}
+
+.squr_central {
+  border-right: 1px solid #262626;
+}
+.squraup_box .squr_central:nth-of-type(2),
+.squraup_box .squr_central:nth-of-type(4),
+.squraup_box .squr_central:nth-of-type(6) {
+  border-right: none;
+}
+.squraup_hr {
+  color: #262626 !important;
+  margin: 0;
+  opacity: 1;
+  padding: 0 12px;
+}
+
+/* comonbtn */
+.comonbtn {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  height: 60px;
+  border: none;
+}
+/* comon using */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* about client start */
+
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+
+  .client_content h1 {
+    font-size: 18px;
+  }
+  .client_content p {
+    font-size: 14px;
+    margin: 15px 0 25px;
+  }
+
+  .clien_flexin p {
+    font-size: 16px;
+  }
+  .c_cusp {
+    font-size: 14px !important;
+  }
+  .clien_idd img {
+    width: 50px;
+    height: 50px;
+  }
+  .client_info {
+    padding: 14px;
+  }
+
+  .clien_btn button {
+    display: none;
+    padding: 0 16px;
+  }
+
+  .client_content {
+    padding: 40px 15px;
+  }
+  .clien_idd {
+    gap: 10px;
+  }
+  /* comon using */
+  .squr_central {
+    border-right: none;
+    border-bottom: 1px solid #262626;
+  }
+  .squraup_box .squr_central:last-child {
+    border-bottom: none;
+  }
+
+  .squraup_hr {
+    display: none;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* about client start */
+
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+
+  .client_content h1 {
+    font-size: 20px;
+  }
+  .client_content p {
+    font-size: 14px;
+    margin: 15px 0 25px;
+  }
+
+  .clien_flexin p {
+    font-size: 16px;
+  }
+  .c_cusp {
+    font-size: 14px !important;
+  }
+  .clien_idd img {
+    width: 50px;
+    height: 50px;
+  }
+  .client_info {
+    padding: 14px;
+  }
+
+  .clien_btn button {
+    display: none;
+    padding: 0 16px;
+  }
+
+  .client_content {
+    padding: 40px 25px;
+  }
+  .clien_idd {
+    gap: 10px;
+  }
+
+  /* comon using */
+  .squr_central {
+    border-right: none;
+    border-bottom: 1px solid #262626;
+  }
+  .squraup_box .squr_central:last-child {
+    border-bottom: none;
+  }
+
+  .squraup_hr {
+    display: none;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* about client start */
+
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+
+  .client_content h1 {
+    font-size: 20px;
+  }
+  .client_content p {
+    font-size: 16px;
+    margin: 15px 0 25px;
+  }
+
+  .clien_flexin p {
+    font-size: 16px;
+  }
+  .c_cusp {
+    font-size: 14px !important;
+  }
+  .clien_idd img {
+    width: 50px;
+    height: 50px;
+  }
+  .client_info {
+    padding: 14px;
+  }
+
+  .clien_btn button {
+    display: none;
+    padding: 0 16px;
+  }
+
+  .client_content {
+    padding: 40px 25px;
+  }
+  .clien_idd {
+    gap: 10px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* about client start */
+
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+
+  .client_content h1 {
+    font-size: 20px;
+  }
+  .client_content p {
+    font-size: 16px;
+    margin: 20px 0 30px;
+  }
+
+  .clien_flexin p {
+    font-size: 16px;
+  }
+  .c_cusp {
+    font-size: 14px !important;
+  }
+  .clien_idd img {
+    width: 50px;
+    height: 50px;
+  }
+  .client_info {
+    padding: 14px;
+  }
+
+  .clien_btn button {
+    padding: 0 16px;
+  }
+
+  .client_content {
+    padding: 40px 25px;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* about client start */
+
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+
+  .client_content h1 {
+    font-size: 20px;
+  }
+  .client_content p {
+    font-size: 16px;
+    margin: 20px 0 30px;
+  }
+
+  .clien_flexin p {
+    font-size: 16px;
+  }
+  .c_cusp {
+    font-size: 14px !important;
+  }
+  .clien_idd img {
+    width: 50px;
+    height: 50px;
+  }
+  .client_info {
+    padding: 14px;
+  }
+
+  .clien_btn button {
+    padding: 0 16px;
+  }
+
+  .client_content {
+    padding: 65px 40px;
+  }
+}
+
+/* //agulo custom container er jonno */
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width: 1550px) {
+  /* about client start */
+
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+
+  .client_content h1 {
+    font-size: 20px;
+  }
+  .client_content p {
+    font-size: 16px;
+    margin: 20px 0 30px;
+  }
+
+  .clien_flexin p {
+    font-size: 16px;
+  }
+  .c_cusp {
+    font-size: 14px !important;
+  }
+  .clien_idd img {
+    width: 50px;
+    height: 50px;
+  }
+  .client_info {
+    padding: 14px;
+  }
+
+  .clien_btn button {
+    padding: 0 16px;
+  }
+
+  .client_content {
+    padding: 80px 45px;
+  }
+}
+@media (min-width: 1551px) and (max-width: 1700px) {
+  /* about client start */
+
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+
+  .client_content h1 {
+    font-size: 20px;
+  }
+  .client_content p {
+    font-size: 16px;
+    margin: 20px 0 30px;
+  }
+
+  .clien_flexin p {
+    font-size: 16px;
+  }
+  .c_cusp {
+    font-size: 14px !important;
+  }
+  .clien_idd img {
+    width: 50px;
+    height: 50px;
+  }
+  .client_info {
+    padding: 14px;
+  }
+
+  .clien_btn button {
+    padding: 0 16px;
+  }
+
+  .client_content {
+    padding: 80px 45px;
+  }
+}

@@ -1,0 +1,1053 @@
+/* work start */
+.design {
+}
+.d_borderr {
+  border: 1px solid #262626;
+}
+
+.story {
+  margin: 100px 0 100px 50px;
+}
+.story h1 {
+  font-family: "Barlow", sans-serif;
+  font-size: 58px !important;
+  font-weight: 600 !important;
+  color: #fff;
+  margin: 0;
+}
+
+.prces p {
+  font-size: 38px !important;
+  color: #d8ff99 !important;
+}
+
+/* work start */
+.dsm_pad {
+  padding: 0 12px;
+}
+.subbox {
+  border-right: 1px solid #262626;
+}
+.box .subbox:nth-of-type(2),
+.box .subbox:nth-of-type(4),
+.box .subbox:nth-of-type(6),
+.box .subbox:nth-of-type(8),
+.box .subbox:nth-of-type(10) {
+  border-right: none;
+}
+
+/* process start */
+.box {
+  border-top: 1px solid #262626;
+  /* border-bottom: 1px solid #262626; */
+}
+.squp {
+  padding: 100px 50px;
+}
+.squ_hedin {
+  display: flex;
+  align-items: flex-end;
+  gap: 14px;
+}
+.squ_hedin h2 {
+  font-family: "Barlow", sans-serif;
+  font-size: 150px !important;
+  font-weight: 600 !important;
+  color: #d8ff99;
+  margin: 0;
+}
+.squ_hedin p {
+  font-family: "Barlow", sans-serif;
+  font-size: 30px;
+  font-weight: 500 !important;
+  color: #98989a;
+  margin-bottom: 35px;
+  border-bottom: 1px solid #262626;
+  width: 100%;
+  padding-bottom: 26px;
+}
+.squrp {
+}
+.squrp p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  color: #98989a;
+  margin: 15px 0 0;
+}
+.proces_hr {
+  color: #262626;
+  opacity: 1;
+  margin: 0;
+}
+
+/* aboufirst sectiom */
+.abo_pad {
+  padding: 100px 150px;
+  border-bottom: 1px solid #262626;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.abou_left {
+}
+.abou_left h4 {
+  font-family: "Barlow", sans-serif;
+  font-size: 48px !important;
+  font-weight: 600 !important;
+  color: #fff;
+  margin: 0;
+}
+.abou_left p {
+  font-family: "Barlow", sans-serif;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  color: #e6e6e6;
+  margin: 20px 0 0;
+}
+.abou_right {
+}
+.abou_right img {
+}
+
+/* about botom start */
+.abot_botom {
+  display: flex;
+  gap: 50px;
+  padding: 80px;
+  border-top: 1px solid #262626;
+}
+.abth_fle {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.aou_imeg {
+}
+.aou_imeg img {
+}
+.abou_tocotnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.abou_tocotnt h6 {
+  font-family: "Barlow", sans-serif;
+  font-size: 30px !important;
+  font-weight: 500 !important;
+  color: #98989a !important;
+  margin: 0;
+  line-height: 150%;
+}
+.abou_tocotnt p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  color: #98989a;
+  margin: 0;
+}
+
+.abo_botcon {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(36, 36, 36, 0.2);
+  backdrop-filter: blur(3px) !important;
+  border: 1px solid #262626;
+  border-radius: 12px;
+  padding: 24px 40px;
+}
+.abo_botcon h5 {
+  font-family: "Barlow", sans-serif;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  color: #98989a;
+  margin: 0;
+}
+.ab_midle {
+  background-color: #262626;
+  border-radius: 8px;
+  padding: 14px 20px;
+}
+
+.ab_midle p {
+  font-family: "Barlow", sans-serif;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  color: #fff;
+  margin: 0;
+}
+
+/* comonbtn */
+.comonbtn {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  height: 60px;
+  border: none;
+}
+.diff_allbtns button {
+  position: relative;
+  overflow: hidden; /* Hide overflow animation */
+  z-index: 1;
+}
+.diff_allbtns button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  background: linear-gradient(0deg, #3b5c08 0%, #3b5c08 100%);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  z-index: -1;
+  border-radius: 8px;
+}
+
+/* Hover Effect */
+.diff_allbtns button:hover::after {
+  transform: scale(1); /* Scale the background to full size */
+}
+
+.diff_allbtns button:hover {
+  color: #000; /* Text color change on hover */
+}
+/* comon_allbtns animation */
+.diff_btn button {
+  padding: 0 34px;
+  border-radius: 8px;
+  background-color: #9eff00;
+  color: #1a1a1a;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* proces */
+  .subbox {
+    border-right: none;
+  }
+  /* proces */
+  .squ_hedin h2 {
+    font-size: 80px !important;
+  }
+  .squ_hedin p {
+    font-size: 20px !important;
+    margin-bottom: 19px;
+    padding-bottom: 10px;
+  }
+
+  .squrp p {
+    font-size: 14px !important;
+    margin: 5px 0 0;
+  }
+  .squp {
+    padding: 40px 24px;
+  }
+  .subbox {
+    border-bottom: 1px solid #262626;
+  }
+  .proces_hr {
+    display: none;
+  }
+  .box .subbox:last-child {
+    border-bottom: none;
+  }
+
+  .story {
+    margin: 40px 0 40px 24px;
+  }
+
+  .story h1 {
+    font-size: 38px !important;
+  }
+
+  /* aboufirst sectiom */
+  .abo_pad {
+    padding: 40px 12px;
+    gap: 30px;
+  }
+
+  .abou_left h4 {
+    font-size: 28px !important;
+  }
+  .abou_left p {
+    font-size: 14px !important;
+    margin: 16px 0 0;
+    width: 100%;
+  }
+
+  /* about botom */
+  .abou_tocotnt h6 {
+    font-size: 20px !important;
+    text-align: center;
+  }
+
+  .abou_tocotnt p {
+    font-size: 14px !important;
+    text-align: center;
+  }
+  .abou_tocotnt {
+    gap: 14px;
+  }
+
+  .abo_botcon h5 {
+    font-size: 18px !important;
+    text-align: center;
+  }
+
+  .ab_midle p {
+    font-size: 16px !important;
+    text-align: center;
+  }
+  .ab_midle {
+    padding: 10px 14px;
+  }
+  .abo_botcon {
+    padding: 13px;
+  }
+  .abot_botom {
+    gap: 30px;
+    padding: 30px 6px;
+  }
+  .abo_botcon {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(36, 36, 36, 0.2);
+    backdrop-filter: blur(3px) !important;
+    border: 1px solid #262626;
+    border-radius: 12px;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .abth_fle {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .abou_tocotnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  .aou_imeg img {
+    width: 80.38px;
+    height: 80px;
+  }
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+
+  .diff_btn button {
+    padding: 0 24px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* proces  */
+  .subbox {
+    border-right: none;
+  }
+  /* proces */
+  .squ_hedin h2 {
+    font-size: 80px !important;
+  }
+  .squ_hedin p {
+    font-size: 20px !important;
+    margin-bottom: 19px;
+    padding-bottom: 10px;
+  }
+
+  .squrp p {
+    font-size: 16px !important;
+    margin: 5px 0 0;
+  }
+  .squp {
+    padding: 55px 25px;
+  }
+  .subbox {
+    border-bottom: 1px solid #262626;
+  }
+  .proces_hr {
+    display: none;
+  }
+  .box .subbox:last-child {
+    border-bottom: none;
+  }
+
+  .story {
+    margin: 40px 0 40px 24px;
+  }
+
+  .story h1 {
+    font-size: 38px !important;
+  }
+
+  /* aboufirst sectiom */
+  .abo_pad {
+    padding: 40px 30px;
+    gap: 40px;
+  }
+
+  .abou_left h4 {
+    font-size: 30px !important;
+  }
+  .abou_left p {
+    font-size: 16px !important;
+    margin: 16px 0 0;
+    width: 100%;
+  }
+
+  /* about botom */
+  .abou_tocotnt h6 {
+    font-size: 20px !important;
+    text-align: center;
+  }
+
+  .abou_tocotnt p {
+    font-size: 15px !important;
+    text-align: center;
+  }
+  .abou_tocotnt {
+    gap: 14px;
+  }
+
+  .abo_botcon h5 {
+    font-size: 18px !important;
+    text-align: center;
+  }
+
+  .ab_midle p {
+    font-size: 16px !important;
+    text-align: center;
+  }
+  .ab_midle {
+    padding: 10px 14px;
+  }
+  .abo_botcon {
+    padding: 20px 30px;
+  }
+
+  .abot_botom {
+    gap: 30px;
+    padding: 40px 30px;
+  }
+
+  .abo_botcon {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(36, 36, 36, 0.2);
+    backdrop-filter: blur(3px) !important;
+    border: 1px solid #262626;
+    border-radius: 12px;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .abth_fle {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .abou_tocotnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  .aou_imeg img {
+    width: 80.38px;
+    height: 80px;
+  }
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+
+  .diff_btn button {
+    padding: 0 24px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* proces */
+  .squ_hedin h2 {
+    font-size: 80px !important;
+  }
+  .squ_hedin p {
+    font-size: 20px !important;
+    margin-bottom: 19px;
+    padding-bottom: 10px;
+  }
+
+  .squrp p {
+    font-size: 16px !important;
+    margin: 5px 0 0;
+  }
+  .squp {
+    padding: 55px 25px;
+  }
+
+  .story {
+    margin: 50px 0 50px 30px;
+  }
+
+  .story h1 {
+    font-size: 44px !important;
+  }
+
+  /* aboufirst sectiom */
+  .abo_pad {
+    padding: 50px 60px;
+    gap: 40px;
+  }
+
+  .abou_left h4 {
+    font-size: 34px !important;
+  }
+  .abou_left p {
+    font-size: 16px !important;
+    margin: 16px 0 0;
+    width: 100%;
+  }
+
+  /* about botom */
+  .abou_tocotnt h6 {
+    font-size: 24px !important;
+    text-align: center;
+  }
+
+  .abou_tocotnt p {
+    font-size: 16px !important;
+    text-align: center;
+  }
+  .abou_tocotnt {
+    gap: 14px;
+  }
+
+  .abo_botcon h5 {
+    font-size: 18px !important;
+    text-align: center;
+  }
+
+  .ab_midle p {
+    font-size: 16px !important;
+    text-align: center;
+  }
+  .ab_midle {
+    padding: 10px 14px;
+  }
+  .abo_botcon {
+    padding: 20px 30px;
+  }
+
+  .abot_botom {
+    gap: 40px;
+    padding: 40px;
+  }
+
+  .abo_botcon {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(36, 36, 36, 0.2);
+    backdrop-filter: blur(3px) !important;
+    border: 1px solid #262626;
+    border-radius: 12px;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .abth_fle {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .abou_tocotnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-content: center;
+    align-items: center;
+  }
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+
+  .diff_btn button {
+    padding: 0 24px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* proces */
+  .squ_hedin h2 {
+    font-size: 90px !important;
+  }
+  .squ_hedin p {
+    font-size: 24px !important;
+    margin-bottom: 21px;
+    padding-bottom: 15px;
+  }
+
+  .squrp p {
+    font-size: 16px !important;
+    margin: 5px 0 0;
+  }
+  .squp {
+    padding: 60px 30px;
+  }
+
+  .story {
+    margin: 60px 0 60px 40px;
+  }
+
+  .story h1 {
+    font-size: 48px !important;
+  }
+
+  /* aboufirst sectiom */
+  .abo_pad {
+    padding: 60px 80px;
+  }
+
+  .abou_left h4 {
+    font-size: 34px !important;
+  }
+  .abou_left p {
+    font-size: 16px !important;
+    margin: 16px 0 0;
+    width: 354px;
+  }
+
+  /* about botom */
+  .abou_tocotnt h6 {
+    font-size: 24px !important;
+    text-align: center;
+  }
+
+  .abou_tocotnt p {
+    font-size: 16px !important;
+    text-align: center;
+  }
+  .abou_tocotnt {
+    gap: 14px;
+  }
+
+  .abo_botcon h5 {
+    font-size: 18px !important;
+  }
+
+  .ab_midle p {
+    font-size: 16px !important;
+  }
+  .ab_midle {
+    padding: 10px 14px;
+  }
+  .abo_botcon {
+    padding: 20px 30px;
+  }
+
+  .abot_botom {
+    gap: 40px;
+    padding: 40px;
+  }
+
+  .abo_botcon {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(36, 36, 36, 0.2);
+    backdrop-filter: blur(3px) !important;
+    border: 1px solid #262626;
+    border-radius: 12px;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .abth_fle {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .abou_tocotnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+
+  .diff_btn button {
+    padding: 0 24px;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* proces */
+  .squ_hedin h2 {
+    font-size: 120px !important;
+  }
+  .squ_hedin p {
+    font-size: 24px !important;
+    margin-bottom: 27px;
+    padding-bottom: 20px;
+  }
+  .squrp p {
+    font-size: 16px !important;
+    margin: 5px 0 0;
+  }
+  .squp {
+    padding: 80px 40px;
+  }
+  .story {
+    margin: 65px 0 65px 40px;
+  }
+
+  .story h1 {
+    font-size: 48px !important;
+  }
+
+  /* aboufirst sectiom */
+  .abo_pad {
+    padding: 70px 90px;
+  }
+
+  .abou_left h4 {
+    font-size: 38px !important;
+  }
+  .abou_left p {
+    font-size: 16px !important;
+    margin: 16px 0 0;
+  }
+
+  /* about botom */
+  .abou_tocotnt h6 {
+    font-size: 24px !important;
+  }
+
+  .abou_tocotnt p {
+    font-size: 16px !important;
+  }
+  .abou_tocotnt {
+    gap: 14px;
+  }
+
+  .abo_botcon h5 {
+    font-size: 18px !important;
+  }
+
+  .ab_midle p {
+    font-size: 16px !important;
+  }
+  .ab_midle {
+    padding: 10px 14px;
+  }
+  .abo_botcon {
+    padding: 20px 30px;
+  }
+
+  .abot_botom {
+    gap: 40px;
+    padding: 40px;
+  }
+
+  .abo_botcon {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(36, 36, 36, 0.2);
+    backdrop-filter: blur(3px) !important;
+    border: 1px solid #262626;
+    border-radius: 12px;
+    flex-direction: column;
+    gap: 15px;
+  }
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+
+  .diff_btn button {
+    padding: 0 24px;
+  }
+}
+
+/* //agulo custom container er jonno */
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width: 1550px) {
+  /* process */
+
+  /* proces */
+  .squ_hedin h2 {
+    font-size: 120px !important;
+  }
+  .squ_hedin p {
+    font-size: 24px !important;
+    margin-bottom: 27px;
+    padding-bottom: 20px;
+  }
+  .squrp p {
+    font-size: 16px !important;
+    margin: 5px 0 0;
+  }
+  .squp {
+    padding: 80px 40px;
+  }
+
+  .story {
+    margin: 80px 0 80px 50px;
+  }
+  .story h1 {
+    font-size: 48px !important;
+  }
+
+  /* aboufirst sectiom */
+  .abo_pad {
+    padding: 80px 100px;
+  }
+
+  .abou_left h4 {
+    font-size: 38px !important;
+  }
+  .abou_left p {
+    font-size: 16px !important;
+    margin: 16px 0 0;
+  }
+
+  /* about botom */
+  .abou_tocotnt h6 {
+    font-size: 24px !important;
+  }
+
+  .abou_tocotnt p {
+    font-size: 16px !important;
+  }
+  .abou_tocotnt {
+    gap: 14px;
+  }
+
+  .abo_botcon h5 {
+    font-size: 18px !important;
+  }
+
+  .ab_midle p {
+    font-size: 16px !important;
+  }
+  .ab_midle {
+    padding: 10px 14px;
+  }
+  .abo_botcon {
+    padding: 20px 30px;
+  }
+
+  .abot_botom {
+    gap: 40px;
+    padding: 40px;
+  }
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  .diff_btn button {
+    padding: 0 24px;
+  }
+}
+@media (min-width: 1551px) and (max-width: 1700px) {
+  /* proces */
+  .squ_hedin h2 {
+    font-size: 120px !important;
+  }
+  .squ_hedin p {
+    font-size: 24px !important;
+    margin-bottom: 27px;
+    padding-bottom: 20px;
+  }
+  .squrp p {
+    font-size: 16px !important;
+    margin: 5px 0 0;
+  }
+  .squp {
+    padding: 80px 40px;
+  }
+  .story {
+    margin: 80px 0 80px 50px;
+  }
+  .story h1 {
+    font-size: 48px !important;
+  }
+
+  /* aboufirst sectiom */
+  .abo_pad {
+    padding: 80px 100px;
+  }
+
+  .abou_left h4 {
+    font-size: 38px !important;
+  }
+  .abou_left p {
+    font-size: 16px !important;
+    margin: 16px 0 0;
+  }
+
+  /* about botom */
+  .abou_tocotnt h6 {
+    font-size: 24px !important;
+  }
+
+  .abou_tocotnt p {
+    font-size: 16px !important;
+  }
+  .abou_tocotnt {
+    gap: 14px;
+  }
+
+  .abo_botcon h5 {
+    font-size: 18px !important;
+  }
+
+  .ab_midle p {
+    font-size: 16px !important;
+  }
+  .ab_midle {
+    padding: 10px 14px;
+  }
+  .abo_botcon {
+    padding: 20px 30px;
+  }
+
+  .abot_botom {
+    gap: 40px;
+    padding: 40px;
+  }
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  .diff_btn button {
+    padding: 0 24px;
+  }
+}
+
+@media (min-width: 1701px) and (max-width: 1800px) {
+  .cus_container {
+    max-width: 1518px !important;
+  }
+  /* about botom */
+  .abou_tocotnt h6 {
+    font-size: 24px !important;
+  }
+
+  .abou_tocotnt p {
+    font-size: 16px !important;
+  }
+  .abou_tocotnt {
+    gap: 14px;
+  }
+
+  .abo_botcon h5 {
+    font-size: 18px !important;
+  }
+
+  .ab_midle p {
+    font-size: 16px !important;
+  }
+  .ab_midle {
+    padding: 10px 14px;
+  }
+  .abo_botcon {
+    padding: 20px 30px;
+  }
+
+  .abot_botom {
+    gap: 40px;
+    padding: 40px;
+  }
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  .diff_btn button {
+    padding: 0 24px;
+  }
+}
+@media (min-width: 1801px) and (max-width: 1850px) {
+  .cus_container {
+    max-width: 1603px !important;
+  }
+
+  /* about botom */
+  .abou_tocotnt h6 {
+    font-size: 24px !important;
+  }
+
+  .abou_tocotnt p {
+    font-size: 16px !important;
+  }
+  .abou_tocotnt {
+    gap: 14px;
+  }
+
+  .abo_botcon h5 {
+    font-size: 18px !important;
+  }
+
+  .ab_midle p {
+    font-size: 16px !important;
+  }
+  .ab_midle {
+    padding: 10px 14px;
+  }
+  .abo_botcon {
+    padding: 20px 30px;
+  }
+
+  .abot_botom {
+    gap: 40px;
+    padding: 40px;
+  }
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  .diff_btn button {
+    padding: 0 24px;
+  }
+}

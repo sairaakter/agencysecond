@@ -1,0 +1,1061 @@
+/* Email start */
+/* comon using */
+.squraup_box {
+  padding: 0 12px;
+  border: 1px solid #262626;
+  border-top: none !important;
+}
+
+.email {
+}
+
+.emai_pad {
+  padding: 0 268px;
+}
+.ecus_pad {
+  padding: 80px;
+  border: 1px solid #262626;
+}
+
+.name {
+  padding: 24px 40px;
+  background-color: rgba(36, 36, 36, 0.5);
+  border: 1px solid #262626;
+  border-radius: 8px;
+}
+.na_label {
+  font-family: "Barlow", sans-serif;
+  font-size: 22px !important;
+  font-weight: 500 !important;
+  line-height: 150%;
+  color: #fff;
+  margin-bottom: 20px !important;
+}
+.inputcss {
+  width: 100%;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  line-height: 150%;
+  color: #656567;
+  background: transparent !important;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #333333;
+  padding-bottom: 8px;
+  flex: 1;
+}
+.inputcss:focus {
+  background-color: transparent !important;
+  /* border-bottom-color: #3CC !important; */
+}
+input.inputcss::placeholder {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  line-height: 150%;
+  color: #656567;
+}
+.main_check {
+  display: flex;
+  gap: 200px;
+}
+.sub_check {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.ch_box {
+  display: flex;
+}
+
+.ch_box {
+  display: flex;
+  align-items: center; /* Center align checkbox and label */
+  gap: 10px; /* Space between checkbox and text */
+}
+
+.name input[type="checkbox"] {
+  appearance: none;
+  width: 28px;
+  height: 28px;
+  background-color: #262626;
+  accent-color: #262626; /* Custom color */
+  cursor: pointer;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+  display: block !important;
+}
+
+.name input[type="checkbox"]:checked {
+  background-color: #262626;
+  background-image: url("../assets/checkmark.png"); /* Your custom checkmark image */
+  background-size: 20px 20px; /* Ensures the image fits the checkbox */
+  background-position: center;
+}
+.name input[type="checkbox"]::before {
+  content: ""; /* Checkmark symbol */
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none; /* Hide by default */
+}
+/* Show tick mark when checked */
+.name input[type="checkbox"]:checked::before {
+  display: block;
+}
+.name label {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #fdfffa;
+}
+
+.name p {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  line-height: 150%;
+  color: #e6e6e6;
+  margin-bottom: 40px;
+}
+/* input range */
+.custom_range_container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 88px;
+}
+.custom_range_line {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 5px;
+  background-color: #333333; /* Dark background line */
+  border-radius: 2px;
+}
+.custom_range_fill {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 4px;
+  background-color: #9eff00; /* Green fill */
+  border-radius: 2px;
+}
+.custom_range_thumb {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 32px;
+  height: 32px;
+  background-color: #4c4c4d; /* Dark thumb */
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.custom_range_thumb::after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: #9eff00; /* Green inner circle */
+  border-radius: 50%;
+}
+.custom_range_label {
+  font-family: "Inter", sans-serif;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  color: #fff;
+  margin-top: 10px;
+  position: absolute;
+  top: 100%;
+  transform: translateY(10px);
+}
+.custom_range_label.left {
+  left: 0;
+}
+.custom_range_label.right {
+  right: 0;
+}
+.range_input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0; /* Make it invisible */
+  z-index: 3; /* Ensure it is still functional */
+  cursor: pointer;
+}
+
+/* input range */
+/* input type message */
+
+.message {
+  width: 100%;
+  padding: 0;
+  resize: vertical; /* শুধুমাত্র ভার্টিকালি রিসাইজ করা যাবে */
+}
+
+.message::placeholder {
+}
+
+.message:focus {
+  outline: none; /* ফোকাস করলে আউটলাইন রিমুভ হবে */
+}
+/* input type message */
+
+.diff_btn button {
+  padding: 0 34px;
+  border-radius: 8px;
+  background-color: #9eff00;
+  color: #1a1a1a;
+}
+
+.comonbtn {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  height: 60px;
+  border: none;
+}
+
+.diff_allbtns button {
+  position: relative;
+  overflow: hidden; /* Hide overflow animation */
+  z-index: 1;
+}
+.diff_allbtns button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0); /* Hide the background initially */
+  background: linear-gradient(0deg, #3b5c08 0%, #3b5c08 100%);
+  transition: transform 0.5s ease, opacity 0.5s ease; /* Smooth transition for scale and opacity */
+  z-index: -1;
+  border-radius: 8px;
+}
+
+/* Hover Effect */
+.diff_allbtns button:hover::after {
+  transform: scale(1); /* Scale the background to full size */
+}
+
+.diff_allbtns button:hover {
+  color: #000; /* Text color change on hover */
+}
+/* comon_allbtns animation */
+.sub_cen {
+  display: flex;
+  justify-content: center;
+}
+.sub_margbtm {
+  margin-bottom: 40px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* .Email start  */
+
+  .sub_margbtm {
+    margin-bottom: 30px;
+  }
+  .na_label {
+    font-size: 16px !important;
+    margin-bottom: 13px !important;
+  }
+
+  .inputcss {
+    font-size: 16px !important;
+  }
+
+  input.inputcss::placeholder {
+    font-size: 16px !important;
+  }
+
+  .name {
+    padding: 22px 20px;
+  }
+
+  .name label {
+    font-size: 16px;
+  }
+
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+  .diff_btn button {
+    padding: 0 24px;
+  }
+
+  .main_check {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .sub_check {
+    gap: 20px;
+  }
+
+  .emai_pad {
+    padding: 0;
+  }
+  .ecus_pad {
+    padding: 24px 10px;
+    border: none;
+  }
+
+  .name p {
+    font-size: 14px !important;
+    margin-bottom: 34px;
+  }
+
+  .custom_range_label {
+    font-size: 14px !important;
+  }
+
+  .colwidt {
+    width: 100%;
+  }
+
+  .colwidt button {
+    width: 100%;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* header starrt */
+  .header {
+    padding: 15px 0;
+  }
+  .logo {
+    width: 118.48px;
+    height: 40px;
+  }
+  nav ul li {
+    margin: 5px 0 !important;
+    text-align: right;
+  }
+  nav ul li a {
+    font-size: 14px !important;
+    padding: 12px 15px !important;
+  }
+  .contact_btn {
+    height: 45px;
+    padding: 0px 19px;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+  }
+  .navb {
+    margin: 20px 0;
+    text-align: right;
+  }
+
+  /* banner start */
+  .banar_content h1 {
+    font-size: 34px !important;
+  }
+  .start_first {
+    width: 515px;
+    height: 75px;
+  }
+  .start_first p {
+    font-size: 14px !important;
+    padding: 0 30px;
+  }
+  .start_secon {
+    gap: 8px;
+  }
+  .start_secon button {
+    font-size: 14px !important;
+    padding: 8px 12px;
+  }
+  .ban_comonbtn button {
+    padding: 0 20px;
+  }
+
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+  .banar_content {
+    padding: 60px 0 90px 0;
+  }
+  .startup {
+    margin: 30px 0 40px;
+  }
+
+  /* logos start  */
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  .logos_btn {
+    bottom: 24px;
+  }
+  .logos_content button {
+    padding: 0 24px;
+  }
+  .logos_logo {
+    padding: 0;
+  }
+  .after_two {
+    display: block;
+    color: #262626 !important;
+    margin: 0;
+    opacity: 1;
+  }
+  .last {
+    padding: 30px 0;
+    border-right: 1px solid #262626;
+  }
+  .logos_logo .last:nth-of-type(2),
+  .logos_logo .last:nth-of-type(4),
+  .logos_logo .last:nth-of-type(6) {
+    border-right: none;
+  }
+  .logos_btn {
+    backdrop-filter: blur(12px) !important;
+    bottom: -22px;
+  }
+  .logos_content {
+    margin: -45px 0 0 0;
+  }
+
+  /* comontittle start */
+  .cttl_content h1 {
+    font-size: 30px !important;
+  }
+  .cttl_content p {
+    font-size: 16px !important;
+  }
+  .cttl_two {
+    gap: 8px;
+  }
+  .cttl_img {
+    height: 200px;
+  }
+
+  /* servic start */
+  .box > .icon > .image {
+    width: 58px;
+    height: 58px;
+  }
+  .box > .icon > .info > h3.title {
+    display: none;
+    font-size: 20px;
+    margin: 21px 0 12px;
+  }
+
+  .box > .icon > .info > p {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  .box > .icon > .info > .more {
+    padding: 14px 0;
+  }
+
+  .box > .icon > .info > .more a {
+    font-size: 14px;
+  }
+  .centrall {
+    padding: 0px 10px;
+    border-right: none;
+  }
+  .solution_cards_box {
+    padding: 30px;
+    border-bottom: 1px solid #262626;
+  }
+  .centrall:last-child .solution_cards_box {
+    border-bottom: none;
+  }
+  .image {
+    margin-bottom: 24px;
+  }
+  .s_fexing {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+  }
+  .title_sm {
+    display: block;
+    margin: 0;
+    font-family: "Barlow", sans-serif !important;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: -6%;
+    font-weight: 600;
+  }
+
+  /* squraup start */
+
+  .img_siz {
+    width: 55px;
+    height: 55px;
+  }
+  .squraup_fexing h3 {
+    font-size: 20px;
+  }
+  .squraup_fexing {
+    gap: 14px;
+    margin-bottom: 24px;
+  }
+  .squraup_content p {
+    font-size: 14px;
+  }
+  .squraup_content {
+    padding: 40px 30px;
+  }
+  .squr_central {
+    border-right: none;
+    border-bottom: 1px solid #262626;
+  }
+  .squraup_box .squr_central:last-child {
+    border-bottom: none;
+  }
+  .squraup_hr {
+    display: none;
+  }
+
+  /* about client start */
+
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+
+  .client_content h1 {
+    font-size: 20px;
+  }
+  .client_content p {
+    font-size: 14px;
+    margin: 15px 0 25px;
+  }
+
+  .clien_flexin p {
+    font-size: 16px;
+  }
+  .c_cusp {
+    font-size: 14px !important;
+  }
+  .clien_idd img {
+    width: 50px;
+    height: 50px;
+  }
+  .client_info {
+    padding: 14px;
+  }
+
+  .clien_btn button {
+    display: none;
+    padding: 0 16px;
+  }
+
+  .client_content {
+    padding: 40px 25px;
+  }
+  .clien_idd {
+    gap: 10px;
+  }
+
+  /* comon using */
+  .squr_central {
+    border-right: none;
+    border-bottom: 1px solid #262626;
+  }
+  .squraup_box .squr_central:last-child {
+    border-bottom: none;
+  }
+
+  .squraup_hr {
+    display: none;
+  }
+
+  /* faq start */
+  /* comon sue */
+  .img_siz {
+    width: 55px;
+    height: 55px;
+  }
+  .count p {
+    font-size: 20px !important;
+  }
+  .main_ques {
+    font-size: 16px !important;
+    gap: 35px;
+  }
+  .faq_answer p {
+    font-size: 14px !important;
+    margin: 16px 0 0 42px !important;
+    width: 341px;
+  }
+  .faq_item {
+    padding: 30px 20px 30px 40px;
+  }
+  .fmd_none {
+    display: none;
+  }
+  .faq_img {
+    width: 26px;
+    height: 26px;
+  }
+  .f_padin {
+    padding: 45px 0;
+  }
+
+  /* comontittle differnt */
+  .diff_two h1 {
+    margin-top: 20px;
+    font-size: 30px !important;
+  }
+  .diff_two p {
+    font-size: 16px !important;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  .diferen_img img {
+    width: 60.38px;
+    height: 60px;
+  }
+
+  .diff_btn button {
+    padding: 0 24px;
+  }
+
+  .cttl_different {
+    height: 400px;
+  }
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+
+  /* comontittle differnt */
+
+  /* .Email start  */
+
+  .emai_pad {
+    padding: 0px 125px;
+  }
+
+  .ecus_pad {
+    padding: 40px;
+  }
+
+  .sub_margbtm {
+    margin-bottom: 30px;
+  }
+  .na_label {
+    font-size: 16px !important;
+    margin-bottom: 13px !important;
+  }
+
+  .inputcss {
+    font-size: 16px !important;
+  }
+
+  input.inputcss::placeholder {
+    font-size: 16px !important;
+  }
+
+  .name {
+    padding: 20px 30px;
+  }
+
+  .name label {
+    font-size: 16px;
+  }
+
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+  .diff_btn button {
+    padding: 0 24px;
+  }
+
+  .main_check {
+    gap: 100px;
+  }
+  .emai_pad {
+    padding: 0;
+  }
+  .ecus_pad {
+    padding: 30px;
+    border: none;
+  }
+
+  .name p {
+    font-size: 14px !important;
+    margin-bottom: 34px;
+  }
+
+  .custom_range_label {
+    font-size: 14px !important;
+  }
+
+  /* footer start */
+  .foot_siz {
+    width: 52px;
+    height: 52px;
+  }
+
+  .stay p {
+    font-size: 16px !important;
+  }
+
+  .stay {
+    padding: 10px 20px;
+    gap: 20px;
+  }
+  .fo_fac {
+    width: 20px;
+    height: 20px;
+  }
+  .fbo_mail img {
+    width: 20px;
+    height: 20px;
+  }
+  .fot_copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+  }
+  .fot_copyright a {
+    font-size: 16px !important;
+  }
+
+  .fbo_mail {
+    width: 100%;
+    gap: 10px;
+    padding-bottom: 20px;
+    justify-content: center;
+    border-bottom: 1px solid #262626;
+  }
+  .main_fl {
+    display: flex;
+    width: 100%;
+    gap: 22px;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footb {
+    border-top: 1px solid #262626;
+    padding-top: 30px;
+    width: 100%;
+    display: flex !important;
+    gap: 30px;
+    flex-direction: column !important;
+    margin: 0 !important;
+  }
+
+  .foot_bar {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+  }
+
+  .footb ul li a {
+    font-size: 16px !important;
+  }
+
+  .futlogo {
+    width: 100%;
+    height: 50px;
+  }
+
+  .footb ul {
+    flex-direction: row !important;
+    flex-wrap: wrap; /* Jodi overflow hoy */
+    justify-content: center; /* Center align */
+  }
+  .footer_hr {
+    display: none;
+  }
+
+  .plusfooter {
+    border-top: 1px solid #262626;
+    padding: 30px 0;
+  }
+  .f_bottom {
+    margin-top: 40px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* .Email start  */
+
+  .emai_pad {
+    padding: 0px 125px;
+  }
+
+  .ecus_pad {
+    padding: 40px;
+  }
+
+  .sub_margbtm {
+    margin-bottom: 30px;
+  }
+  .na_label {
+    font-size: 18px !important;
+    margin-bottom: 16px !important;
+  }
+
+  .inputcss {
+    font-size: 16px !important;
+  }
+
+  input.inputcss::placeholder {
+    font-size: 16px !important;
+  }
+
+  .name {
+    padding: 20px 30px;
+  }
+
+  .name label {
+    font-size: 16px;
+  }
+
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+  .diff_btn button {
+    padding: 0 24px;
+  }
+
+  .main_check {
+    gap: 100px;
+  }
+  .emai_pad {
+    padding: 0;
+  }
+  .ecus_pad {
+    border: none;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* .Email start  */
+
+  .emai_pad {
+    padding: 0px 125px;
+  }
+
+  .ecus_pad {
+    padding: 40px;
+  }
+
+  .sub_margbtm {
+    margin-bottom: 30px;
+  }
+  .na_label {
+    font-size: 18px !important;
+    margin-bottom: 16px !important;
+  }
+
+  .inputcss {
+    font-size: 16px !important;
+  }
+
+  input.inputcss::placeholder {
+    font-size: 16px !important;
+  }
+
+  .name {
+    padding: 20px 30px;
+  }
+
+  .name label {
+    font-size: 16px;
+  }
+
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+  .diff_btn button {
+    padding: 0 24px;
+  }
+
+  .main_check {
+    gap: 100px;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* .Email start  */
+
+  .emai_pad {
+    padding: 0px 160px;
+  }
+
+  .ecus_pad {
+    padding: 50px;
+  }
+
+  .sub_margbtm {
+    margin-bottom: 30px;
+  }
+  .na_label {
+    font-size: 18px !important;
+    margin-bottom: 16px !important;
+  }
+
+  .inputcss {
+    font-size: 16px !important;
+  }
+
+  input.inputcss::placeholder {
+    font-size: 16px !important;
+  }
+
+  .name {
+    padding: 20px 30px;
+  }
+
+  .name label {
+    font-size: 16px;
+  }
+
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+  .diff_btn button {
+    padding: 0 24px;
+  }
+}
+
+/* Extra Extra large devices (large desktops, 1400px and up) */
+/* @media (min-width: 1400px) {
+      
+   } */
+
+/* //agulo custom container er jonno */
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width: 1550px) {
+  /* .Email start  */
+
+  .emai_pad {
+    padding: 0px 192px;
+  }
+
+  .ecus_pad {
+    padding: 60px;
+  }
+
+  .sub_margbtm {
+    margin-bottom: 30px;
+  }
+  .na_label {
+    font-size: 18px !important;
+    margin-bottom: 16px !important;
+  }
+
+  .inputcss {
+    font-size: 16px !important;
+  }
+
+  input.inputcss::placeholder {
+    font-size: 16px !important;
+  }
+
+  .name {
+    padding: 20px 30px;
+  }
+
+  .name label {
+    font-size: 16px;
+  }
+
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+
+  .diff_btn button {
+    padding: 0 24px;
+  }
+}
+@media (min-width: 1551px) and (max-width: 1700px) {
+  /* .Email start  */
+
+  .emai_pad {
+    padding: 0px 192px;
+  }
+
+  .ecus_pad {
+    padding: 60px;
+  }
+
+  .sub_margbtm {
+    margin-bottom: 30px;
+  }
+  .na_label {
+    font-size: 18px !important;
+    margin-bottom: 16px !important;
+  }
+
+  .inputcss {
+    font-size: 16px !important;
+  }
+
+  input.inputcss::placeholder {
+    font-size: 16px !important;
+  }
+
+  .name {
+    padding: 20px 30px;
+  }
+
+  .name label {
+    font-size: 16px;
+  }
+
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+  .diff_btn button {
+    padding: 0 24px;
+  }
+}

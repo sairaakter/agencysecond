@@ -1,0 +1,807 @@
+.header {
+  padding: 20px 0;
+  border-bottom: 1px solid #262626;
+}
+.topnav {
+  padding: 0 !important;
+}
+.logo {
+  width: 177.72px;
+  height: 60px;
+}
+nav ul li a {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  color: #e6e6e6 !important;
+  background-color: transparent;
+  line-height: 150%;
+  padding: 14px 28px !important;
+  /* margin: 0 15px 0 0; */
+  border-radius: 8px;
+  transition: 0.2s;
+}
+nav ul li:last-child {
+  margin-right: 0 !important;
+}
+nav ul li a:hover,
+nav ul li a.active {
+  color: #fff !important;
+}
+nav ul li a.active {
+  font-weight: 600 !important;
+  background-color: #262626;
+}
+
+/* 10 */
+.custom_btn {
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  border-radius: 8px;
+  margin: 0 8px 0 0;
+}
+.btn_10 {
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+.btn_10:after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease;
+  -webkit-transform: scale(0.1);
+  transform: scale(0.1);
+}
+.btn_10:hover {
+  font-weight: 600 !important;
+  color: #fff !important;
+  background-color: transparent;
+}
+.btn_10:hover:after {
+  background: rgb(0, 3, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(38, 38, 38, 1) 0%,
+    rgba(38, 38, 38, 1) 100%
+  );
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/* footer start */
+.plusfooter {
+  border-top: 1px solid #262626;
+  padding: 30px 0;
+}
+.footb ul {
+  margin-top: 0 !important;
+}
+
+.stay {
+  border: 1px solid #262626;
+  border-radius: 12px;
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.stay p {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  color: #e6e6e6;
+  margin: 0;
+}
+.foter_icons {
+  display: flex;
+  gap: 14px;
+}
+.socal_lins {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socal_lins img {
+  position: relative;
+}
+.f_link {
+  position: absolute;
+}
+.fo_fac {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.4s ease-in-out, opacity 0.3s, fill 0.3s;
+  fill: #9eff00;
+  cursor: pointer;
+}
+.fo_fac:hover {
+  transform: rotate(180deg) scale(1.2);
+  fill: yellow;
+  animation: rotateScale 3s infinite linear;
+}
+
+@keyframes rotateScale {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.5);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+.footer_hr {
+  color: #262626 !important;
+  margin: 40px 0;
+  opacity: 1;
+}
+
+.f_bottom {
+  padding: 0 12px;
+}
+.fot_copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
+}
+.fot_copyright a {
+  text-decoration: none;
+}
+.fot_subcopy a {
+  color: #98989a !important;
+}
+.fot_copyright a {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  color: #e6e6e6;
+  margin: 0;
+  /* text-align: center;*/
+}
+.fot_subcopy {
+  display: flex;
+  gap: 20px;
+}
+.fbo_mail img {
+  width: 24px;
+  height: 24px;
+}
+.fbo_mail {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  align-content: center;
+  padding-bottom: 16px;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+  align-items: center;
+}
+.fbo_mail:hover {
+  border-bottom: 1px solid #262626;
+}
+.main_fl {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  align-content: center;
+}
+.foot_bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 0 12px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* header starrt */
+  .header {
+    padding: 15px 0;
+  }
+  .logo {
+    width: 118.48px;
+    height: 40px;
+  }
+  nav ul li {
+    margin: 5px 0 !important;
+    text-align: right;
+  }
+  nav ul li a {
+    font-size: 14px !important;
+    padding: 12px 15px !important;
+  }
+  .contact_btn {
+    height: 45px;
+    padding: 0px 19px;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+  }
+  .navb {
+    margin: 20px 0;
+    text-align: right;
+  }
+
+  /* footer start */
+  .foot_siz {
+    width: 52px;
+    height: 52px;
+  }
+
+  .stay p {
+    font-size: 16px !important;
+  }
+
+  .stay {
+    padding: 10px 20px;
+    gap: 20px;
+  }
+  .fo_fac {
+    width: 20px;
+    height: 20px;
+  }
+  .fbo_mail img {
+    width: 24px;
+    height: 24px;
+  }
+  .fot_copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+  }
+  .fot_copyright a {
+    font-size: 16px !important;
+  }
+
+  .fbo_mail {
+    width: 100%;
+    gap: 10px;
+    padding-bottom: 20px;
+    justify-content: center;
+    border-bottom: 1px solid #262626;
+  }
+  .main_fl {
+    display: flex;
+    width: 100%;
+    gap: 22px;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footb {
+    border-top: 1px solid #262626;
+    padding-top: 30px;
+    width: 100%;
+    display: flex !important;
+    gap: 30px;
+    flex-direction: column !important;
+    margin: 0 !important;
+  }
+
+  .foot_bar {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+  }
+
+  .footb ul li a {
+    font-size: 16px !important;
+  }
+
+  .futlogo {
+    width: 100%;
+    height: 50px;
+  }
+
+  .footb ul {
+    flex-direction: row !important;
+    flex-wrap: wrap; /* Jodi overflow hoy */
+    justify-content: center; /* Center align */
+  }
+  .footer_hr {
+    display: none;
+  }
+
+  .plusfooter {
+    border-top: 1px solid #262626;
+    padding: 30px 0;
+  }
+  .f_bottom {
+    margin-top: 40px;
+  }
+
+  .stay {
+    padding: 16px 20px;
+    flex-direction: column;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* header starrt */
+  .header {
+    padding: 15px 0;
+  }
+  .logo {
+    width: 118.48px;
+    height: 40px;
+  }
+  nav ul li {
+    margin: 5px 0 !important;
+    text-align: right;
+  }
+  nav ul li a {
+    font-size: 14px !important;
+    padding: 12px 15px !important;
+  }
+  .contact_btn {
+    height: 45px;
+    padding: 0px 19px;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+  }
+  .navb {
+    margin: 20px 0;
+    text-align: right;
+  }
+
+  /* footer start */
+  .foot_siz {
+    width: 52px;
+    height: 52px;
+  }
+
+  .stay p {
+    font-size: 16px !important;
+  }
+
+  .stay {
+    padding: 10px 20px;
+    gap: 20px;
+  }
+  .fo_fac {
+    width: 20px;
+    height: 20px;
+  }
+  .fbo_mail img {
+    width: 20px;
+    height: 20px;
+  }
+  .fot_copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+  }
+  .fot_copyright a {
+    font-size: 16px !important;
+  }
+
+  .fbo_mail {
+    width: 100%;
+    gap: 10px;
+    padding-bottom: 20px;
+    justify-content: center;
+    border-bottom: 1px solid #262626;
+  }
+  .main_fl {
+    display: flex;
+    width: 100%;
+    gap: 22px;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footb {
+    border-top: 1px solid #262626;
+    padding-top: 30px;
+    width: 100%;
+    display: flex !important;
+    gap: 30px;
+    flex-direction: column !important;
+    margin: 0 !important;
+  }
+
+  .foot_bar {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+  }
+
+  .footb ul li a {
+    font-size: 16px !important;
+  }
+
+  .futlogo {
+    width: 100%;
+    height: 50px;
+  }
+
+  .footb ul {
+    flex-direction: row !important;
+    flex-wrap: wrap; /* Jodi overflow hoy */
+    justify-content: center; /* Center align */
+  }
+  .footer_hr {
+    display: none;
+  }
+
+  .plusfooter {
+    border-top: 1px solid #262626;
+    padding: 30px 0;
+  }
+  .f_bottom {
+    margin-top: 40px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* header starrt */
+  .logo {
+    width: 118.48px;
+    height: 40px;
+  }
+  nav ul li {
+    margin: 6px 0 !important;
+    text-align: right;
+  }
+  nav ul li a {
+    font-size: 14px !important;
+    padding: 12px 15px !important;
+  }
+  .contact_btn {
+    height: 45px;
+    padding: 0px 19px;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+  }
+  .navb {
+    margin: 20px 0;
+    text-align: right;
+  }
+
+  /* footer start */
+  .foot_siz {
+    width: 52px;
+    height: 52px;
+  }
+
+  .stay p {
+    font-size: 16px !important;
+  }
+
+  .stay {
+    padding: 10px 20px;
+    gap: 20px;
+  }
+  .fo_fac {
+    width: 20px;
+    height: 20px;
+  }
+  .fbo_mail img {
+    width: 20px;
+    height: 20px;
+  }
+  .fot_copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+  }
+  .fot_copyright a {
+    font-size: 16px !important;
+  }
+
+  .fbo_mail {
+    gap: 6px;
+    padding-bottom: 12px;
+  }
+  .main_fl {
+    gap: 22px;
+  }
+
+  .footb {
+    border-top: 1px solid #262626;
+    padding-top: 30px;
+    width: 100%;
+    display: flex !important;
+    gap: 30px;
+    flex-direction: column !important;
+  }
+
+  .foot_bar {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+  }
+
+  .footb ul li a {
+    font-size: 16px !important;
+  }
+
+  .futlogo {
+    width: 100%;
+    height: 50px;
+  }
+
+  .footb ul {
+    flex-direction: row !important;
+    flex-wrap: wrap; /* Jodi overflow hoy */
+    justify-content: center; /* Center align */
+  }
+  .footer_hr {
+    margin: 30px 0;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* header starrt */
+  .logo {
+    width: 118.48px;
+    height: 40px;
+  }
+  nav ul li a {
+    font-size: 14px !important;
+    padding: 12px 22px !important;
+  }
+  .contact_btn {
+    height: 45px;
+    padding: 0px 19px;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+  }
+
+  /* footer start */
+  .foot_siz {
+    width: 52px;
+    height: 52px;
+  }
+
+  .stay p {
+    font-size: 16px !important;
+  }
+
+  .stay {
+    padding: 10px 20px;
+    gap: 20px;
+  }
+  .fo_fac {
+    width: 20px;
+    height: 20px;
+  }
+  .fbo_mail img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .fot_copyright a {
+    font-size: 16px !important;
+  }
+
+  .fbo_mail {
+    gap: 6px;
+    padding-bottom: 12px;
+  }
+  .main_fl {
+    gap: 22px;
+  }
+
+  .footb {
+    display: flex !important;
+    gap: 30px;
+    flex-direction: column !important;
+  }
+  .footb ul {
+    border-top: 1px solid #262626;
+    padding-top: 30px;
+    width: 100%;
+  }
+  .foot_bar {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+  }
+
+  .footb ul li a {
+    font-size: 16px !important;
+  }
+
+  .futlogo {
+    width: 100%;
+    height: 50px;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* header starrt */
+  .logo {
+    width: 118.48px;
+    height: 40px;
+  }
+  nav ul li a {
+    font-size: 14px !important;
+    padding: 12px 22px !important;
+  }
+
+  /* footer start */
+  .foot_siz {
+    width: 52px;
+    height: 52px;
+  }
+
+  .stay p {
+    font-size: 16px !important;
+  }
+
+  .stay {
+    padding: 10px 20px;
+    gap: 20px;
+  }
+  .fo_fac {
+    width: 20px;
+    height: 20px;
+  }
+  .fbo_mail img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .fot_copyright a {
+    font-size: 16px !important;
+  }
+
+  .fbo_mail {
+    gap: 6px;
+    padding-bottom: 12px;
+  }
+  .main_fl {
+    gap: 22px;
+  }
+  .footb ul li a {
+    font-size: 16px !important;
+  }
+}
+
+/* Extra Extra large devices (large desktops, 1400px and up) */
+/* @media (min-width: 1400px) {
+      
+   } */
+
+/* //agulo custom container er jonno */
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width: 1550px) {
+  .cus_container {
+    max-width: 1285px !important;
+  }
+  /* header starrt */
+  .logo {
+    width: 118.48px;
+    height: 40px;
+  }
+  nav ul li a {
+    font-size: 14px !important;
+    padding: 12px 22px !important;
+  }
+  .contact_btn {
+    height: 45px;
+    padding: 0px 19px;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+  }
+
+  /* footer start */
+  .foot_siz {
+    width: 52px;
+    height: 52px;
+  }
+
+  .stay p {
+    font-size: 16px !important;
+  }
+
+  .stay {
+    padding: 10px 20px;
+    gap: 20px;
+  }
+  .fo_fac {
+    width: 20px;
+    height: 20px;
+  }
+  .fbo_mail img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .fot_copyright a {
+    font-size: 16px !important;
+  }
+
+  .fbo_mail {
+    gap: 6px;
+    padding-bottom: 12px;
+  }
+  .main_fl {
+    gap: 22px;
+  }
+
+  .footb ul li a {
+    font-size: 16px !important;
+  }
+}
+@media (min-width: 1551px) and (max-width: 1700px) {
+  .cus_container {
+    max-width: 1420px !important;
+  }
+  /* header starrt */
+  .logo {
+    width: 118.48px;
+    height: 40px;
+  }
+  nav ul li a {
+    font-size: 14px !important;
+    padding: 12px 22px !important;
+  }
+
+  /* footer start */
+  .foot_siz {
+    width: 52px !important;
+    height: 52px !important;
+  }
+
+  .stay p {
+    font-size: 16px !important;
+  }
+
+  .stay {
+    padding: 10px 20px;
+    gap: 20px;
+  }
+  .fo_fac {
+    width: 20px;
+    height: 20px;
+  }
+  .fbo_mail img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .fot_copyright a {
+    font-size: 16px !important;
+  }
+
+  .fbo_mail {
+    gap: 6px;
+    padding-bottom: 12px;
+  }
+  .main_fl {
+    gap: 22px;
+  }
+
+  .footb ul li a {
+    font-size: 16px !important;
+  }
+}
+
+/* ////// this are for customs  */
+
+@media (min-width: 400px) and (max-width: 575px) {
+  /* footer start */
+  .stay {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,306 @@
+/* comontittle differnt */
+
+.diff_two h1 {
+  margin-top: 50px;
+}
+.diff_two p {
+  margin-top: 14px;
+  margin-bottom: 50px;
+}
+
+.cttl_different {
+  height: 597px;
+}
+
+.diferen_img img {
+  width: 80.38px;
+  height: 80px;
+}
+
+.diff_btn button {
+  padding: 0 34px;
+  border-radius: 8px;
+  background-color: #9eff00;
+  color: #1a1a1a;
+}
+
+.comonbtn {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  height: 60px;
+  border: none;
+}
+
+.diff_allbtns button {
+  position: relative;
+  overflow: hidden; /* Hide overflow animation */
+  z-index: 1;
+}
+.diff_allbtns button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0); /* Hide the background initially */
+  background: linear-gradient(0deg, #3b5c08 0%, #3b5c08 100%);
+  transition: transform 0.5s ease, opacity 0.5s ease; /* Smooth transition for scale and opacity */
+  z-index: -1;
+  border-radius: 8px;
+}
+
+/* Hover Effect */
+.diff_allbtns button:hover::after {
+  transform: scale(1); /* Scale the background to full size */
+}
+
+.diff_allbtns button:hover {
+  color: #000; /* Text color change on hover */
+}
+/* comon_allbtns animation */
+
+/* comontittle differnt */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* comontittle differnt */
+  .diff_two h1 {
+    margin-top: 28px;
+    font-size: 24px !important;
+  }
+  .diff_two p {
+    font-size: 14px !important;
+    margin-top: 5px;
+    margin-bottom: 28px;
+  }
+
+  .diferen_img img {
+    width: 50.23px;
+    height: 50px;
+  }
+
+  .diff_btn button {
+    padding: 0 24px;
+  }
+
+  .cttl_different {
+    height: 391px;
+  }
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+
+  /* comontittle differnt */
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* comontittle differnt */
+  .diff_two h1 {
+    margin-top: 20px;
+    font-size: 30px !important;
+  }
+  .diff_two p {
+    font-size: 16px !important;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  .diferen_img img {
+    width: 60.38px;
+    height: 60px;
+  }
+
+  .diff_btn button {
+    padding: 0 24px;
+  }
+
+  .cttl_different {
+    height: 400px;
+  }
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+
+  /* comontittle differnt */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* comontittle differnt */
+  .diff_two h1 {
+    margin-top: 20px;
+    font-size: 30px !important;
+  }
+  .diff_two p {
+    font-size: 16px !important;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  .diferen_img img {
+    width: 60.38px;
+    height: 60px;
+  }
+
+  .diff_btn button {
+    padding: 0 24px;
+  }
+
+  .cttl_different {
+    height: 400px;
+  }
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+
+  /* comontittle differnt */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* comontittle differnt */
+  .diff_two h1 {
+    margin-top: 30px;
+    font-size: 30px !important;
+  }
+  .diff_two p {
+    font-size: 16px !important;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .diferen_img img {
+    width: 60.38px;
+    height: 60px;
+  }
+
+  .diff_btn button {
+    padding: 0 24px;
+  }
+
+  .cttl_different {
+    height: 400px;
+  }
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+
+  /* comontittle differnt */
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* comontittle differnt */
+  .diff_two h1 {
+    margin-top: 35px;
+    font-size: 30px !important;
+  }
+  .diff_two p {
+    font-size: 16px !important;
+    margin-top: 10px;
+    margin-bottom: 35px;
+  }
+
+  .diferen_img img {
+    width: 60.38px;
+    height: 60px;
+  }
+
+  .diff_btn button {
+    padding: 0 24px;
+  }
+
+  .cttl_different {
+    height: 483px;
+  }
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+
+  /* comontittle differnt */
+}
+
+/* //agulo custom container er jonno */
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width: 1550px) {
+  /* comontittle differnt */
+  .diff_two h1 {
+    margin-top: 40px;
+    font-size: 30px !important;
+  }
+  .diff_two p {
+    font-size: 16px !important;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  .diferen_img img {
+    width: 60.38px;
+    height: 60px;
+  }
+
+  .diff_btn button {
+    padding: 0 24px;
+  }
+
+  .cttl_different {
+    height: 483px;
+  }
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+
+  /* comontittle differnt */
+}
+@media (min-width: 1551px) and (max-width: 1700px) {
+  /* comontittle differnt */
+  .diff_two h1 {
+    margin-top: 40px;
+    font-size: 30px !important;
+  }
+  .diff_two p {
+    font-size: 16px !important;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  .diferen_img img {
+    width: 60.38px;
+    height: 60px;
+  }
+
+  .diff_btn button {
+    padding: 0 24px;
+  }
+
+  .cttl_different {
+    height: 483px;
+  }
+  /* comonbtn */
+  .comonbtn {
+    font-size: 14px !important;
+    height: 45px;
+  }
+  /* comonbtn */
+
+  /* comontittle differnt */
+}
