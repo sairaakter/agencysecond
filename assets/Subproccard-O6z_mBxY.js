@@ -1,1 +1,0 @@
-import{j as s}from"./vendor-Bc4rOXei.js";function e({prcestyl:i,item:r,thatto:d}){return s.jsxs("div",{className:i.squp,children:[s.jsxs("div",{className:`${i.squ_hedin} ${i.prces}`,children:[d===!1?null:s.jsxs("h2",{children:["0",r.id]}),s.jsx("p",{children:r.title})]}),s.jsx("div",{className:i.squrp,children:s.jsx("p",{children:r.description})})]})}export{e as S};
